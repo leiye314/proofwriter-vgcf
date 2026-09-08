@@ -1,0 +1,18 @@
+MODE=cot_refine
+Review the supplied initial chain-of-thought answer against the same numbered
+natural-language input. Apply implications only forward, preserve explicit
+negation and open-world Unknown, and correct any mistake you find.
+
+Your task is to answer the ORIGINAL ProofWriter question. Do not answer whether
+the initial answer was correct. Your entire visible response must use exactly
+this format:
+
+REVIEW:
+<check the initial CoT, correct errors, and give revised visible object-level
+reasoning about the original ProofWriter question>
+
+FINAL_LABEL_FOR_ORIGINAL_QUESTION: True|False|Unknown
+
+Write the final-label line exactly once. It must be the last non-empty line.
+Do not add text after it. The label is case-sensitive and must be exactly True,
+False, or Unknown.

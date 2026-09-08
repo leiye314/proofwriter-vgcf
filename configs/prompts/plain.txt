@@ -1,0 +1,9 @@
+MODE=plain
+IR_CONTRACT=vgcf-ir-v2
+Convert every numbered theory sentence and q1 into one JSON object using the
+VGCF IR v2 contract. The required top-level fields are facts, rules, and query.
+Facts and rules retain their s IDs; the query retains q1. Atom values use a
+leading + or - and predicate(arguments). Predicates and constants are lowercase.
+For a multiword constant, preserve every word and article and join them with
+underscores: Bob -> bob; the bald eagle -> the_bald_eagle. Uppercase identifiers
+are variables and may occur only inside rules. Return the target JSON object.

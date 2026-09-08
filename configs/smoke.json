@@ -1,0 +1,19 @@
+{
+  "dataset_path": "data/fixtures/proofwriter_smoke.jsonl",
+  "output_path": "outputs/smoke_results.jsonl",
+  "methods": ["direct", "cot", "plain", "constrained", "vgcf"],
+  "sample_count": 30,
+  "seed": 20260805,
+  "prompt_directory": "configs/prompts",
+  "client": {
+    "provider": "mock",
+    "model_id": "deterministic-controlled-mock-v2",
+    "timeout_seconds": 10,
+    "max_retries": 0,
+    "temperature": 0,
+    "max_tokens": 2000,
+    "cache_dir": "outputs/cache",
+    "raw_dir": "outputs/raw",
+    "use_cache": true
+  }
+}

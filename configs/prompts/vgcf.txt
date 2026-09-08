@@ -1,0 +1,3 @@
+VGCF-2 intentionally does not have an independent base-generation prompt.
+MethodRunner loads configs/prompts/constrained.txt and reuses that exact cached
+response for constrained, gate_cot, repair_only, and vgcf2.

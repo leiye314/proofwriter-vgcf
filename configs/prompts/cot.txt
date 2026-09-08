@@ -1,0 +1,15 @@
+MODE=cot
+Reason from only the supplied natural-language theory. Apply rules only forward,
+preserve explicit negation, and use open-world semantics. Answer the ORIGINAL
+ProofWriter question, not a meta-question about whether another answer is correct.
+
+Your entire visible response must use exactly this format:
+
+REASONING:
+<short, visible, object-level reasoning about the original ProofWriter question>
+
+FINAL_LABEL_FOR_ORIGINAL_QUESTION: True|False|Unknown
+
+Write the final-label line exactly once. It must be the last non-empty line.
+Do not add text after it. The label is case-sensitive and must be exactly True,
+False, or Unknown.

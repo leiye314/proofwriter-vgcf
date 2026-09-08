@@ -1,0 +1,2 @@
+MODE=direct
+Classify the question from only the supplied natural-language theory. Use open-world semantics and explicit negation. Return exactly one of True, False, or Unknown.

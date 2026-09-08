@@ -1,0 +1,30 @@
+MODE=constrained
+IR_CONTRACT=vgcf-ir-v2
+Return only one strict JSON object with exactly facts, rules, and query.
+
+Grammar and constraints:
+- atom := sign predicate "(" argument ("," argument)? ")"
+- sign is + for positive or - for explicit negation.
+- Predicates and constants match [a-z][a-z0-9_]* and are lowercase.
+- A multiword constant preserves every word and article, joined by underscores.
+  Bob -> bob; Charlie -> charlie; the bald eagle -> the_bald_eagle;
+  the cat -> the_cat.
+- Variables match [A-Z][A-Za-z0-9_]* and may occur only inside rules.
+- Facts are {"id":"sN","atom":"atom"} and must be ground.
+- Rules are {"id":"sN","if":["atom",...],"then":"atom"}.
+- Query is {"id":"q1","atom":"atom"} and must be ground.
+- Use every s1..sN exactly once, in either facts or rules. Use q1 only as query.
+- Preserve explicit negation, unary/binary arity, argument order, conjunction,
+  constants, shared variables, and the stated forward rule direction.
+- Never delete articles, invent predicates, change polarity, swap arguments,
+  reverse rules, add the query as evidence, or infer unstated facts.
+
+Project-authored toy example (worked; not from any ProofWriter split):
+NUMBERED_INPUT
+s1: Bob visits the bald eagle.
+s2: The bald eagle is not quiet.
+s3: If someone visits the bald eagle then they admire the bald eagle.
+q1: Bob admires the bald eagle.
+
+Output:
+{"facts":[{"id":"s1","atom":"+visits(bob,the_bald_eagle)"},{"id":"s2","atom":"-quiet(the_bald_eagle)"}],"rules":[{"id":"s3","if":["+visits(X,the_bald_eagle)"],"then":"+admires(X,the_bald_eagle)"}],"query":{"id":"q1","atom":"+admires(bob,the_bald_eagle)"}}

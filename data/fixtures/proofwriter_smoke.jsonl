@@ -1,0 +1,36 @@
+{"depth": 1, "example_id": "fixture-001", "gold_label": "True", "question": "Alice is warm.", "theory": ["Alice is red.", "If someone is red then they are warm."]}
+{"depth": 0, "example_id": "fixture-002", "gold_label": "False", "question": "Alice is warm.", "theory": ["Alice is not warm."]}
+{"depth": 0, "example_id": "fixture-003", "gold_label": "Unknown", "question": "Alice is warm.", "theory": ["Alice is red."]}
+{"depth": 1, "example_id": "fixture-004", "gold_label": "True", "question": "Alice is kind.", "theory": ["Alice is red.", "Alice is young.", "If someone is red and they are young then they are kind."]}
+{"depth": 0, "example_id": "fixture-005", "gold_label": "Unknown", "question": "Bob likes Alice.", "theory": ["Alice likes Bob."]}
+{"depth": 2, "example_id": "fixture-006", "gold_label": "True", "question": "Alice is kind.", "theory": ["Alice is red.", "If someone is red then they are warm.", "If someone is warm then they are kind."]}
+{"depth": 1, "example_id": "fixture-007", "gold_label": "True", "question": "Bob is cool.", "theory": ["Bob is blue.", "If someone is blue then they are cool."]}
+{"depth": 0, "example_id": "fixture-008", "gold_label": "False", "question": "Bob is cool.", "theory": ["Bob is not cool."]}
+{"depth": 0, "example_id": "fixture-009", "gold_label": "Unknown", "question": "Bob is cool.", "theory": ["Bob is blue."]}
+{"depth": 1, "example_id": "fixture-010", "gold_label": "True", "question": "Bob is kind.", "theory": ["Bob is blue.", "Bob is young.", "If someone is blue and they are young then they are kind."]}
+{"depth": 0, "example_id": "fixture-011", "gold_label": "Unknown", "question": "Cara likes Bob.", "theory": ["Bob likes Cara."]}
+{"depth": 2, "example_id": "fixture-012", "gold_label": "True", "question": "Bob is kind.", "theory": ["Bob is blue.", "If someone is blue then they are warm.", "If someone is warm then they are kind."]}
+{"depth": 1, "example_id": "fixture-013", "gold_label": "True", "question": "Cara is bright.", "theory": ["Cara is green.", "If someone is green then they are bright."]}
+{"depth": 0, "example_id": "fixture-014", "gold_label": "False", "question": "Cara is bright.", "theory": ["Cara is not bright."]}
+{"depth": 0, "example_id": "fixture-015", "gold_label": "Unknown", "question": "Cara is bright.", "theory": ["Cara is green."]}
+{"depth": 1, "example_id": "fixture-016", "gold_label": "True", "question": "Cara is kind.", "theory": ["Cara is green.", "Cara is young.", "If someone is green and they are young then they are kind."]}
+{"depth": 0, "example_id": "fixture-017", "gold_label": "Unknown", "question": "Dan likes Cara.", "theory": ["Cara likes Dan."]}
+{"depth": 2, "example_id": "fixture-018", "gold_label": "True", "question": "Cara is kind.", "theory": ["Cara is green.", "If someone is green then they are warm.", "If someone is warm then they are kind."]}
+{"depth": 1, "example_id": "fixture-019", "gold_label": "True", "question": "Dan is kind.", "theory": ["Dan is golden.", "If someone is golden then they are kind."]}
+{"depth": 0, "example_id": "fixture-020", "gold_label": "False", "question": "Dan is kind.", "theory": ["Dan is not kind."]}
+{"depth": 0, "example_id": "fixture-021", "gold_label": "Unknown", "question": "Dan is kind.", "theory": ["Dan is golden."]}
+{"depth": 1, "example_id": "fixture-022", "gold_label": "True", "question": "Dan is kind.", "theory": ["Dan is golden.", "Dan is young.", "If someone is golden and they are young then they are kind."]}
+{"depth": 0, "example_id": "fixture-023", "gold_label": "Unknown", "question": "Erin likes Dan.", "theory": ["Dan likes Erin."]}
+{"depth": 2, "example_id": "fixture-024", "gold_label": "True", "question": "Dan is kind.", "theory": ["Dan is golden.", "If someone is golden then they are warm.", "If someone is warm then they are kind."]}
+{"depth": 1, "example_id": "fixture-025", "gold_label": "True", "question": "Erin is quiet.", "theory": ["Erin is calm.", "If someone is calm then they are quiet."]}
+{"depth": 0, "example_id": "fixture-026", "gold_label": "False", "question": "Erin is quiet.", "theory": ["Erin is not quiet."]}
+{"depth": 0, "example_id": "fixture-027", "gold_label": "Unknown", "question": "Erin is quiet.", "theory": ["Erin is calm."]}
+{"depth": 1, "example_id": "fixture-028", "gold_label": "True", "question": "Erin is kind.", "theory": ["Erin is calm.", "Erin is young.", "If someone is calm and they are young then they are kind."]}
+{"depth": 0, "example_id": "fixture-029", "gold_label": "Unknown", "question": "Finn likes Erin.", "theory": ["Erin likes Finn."]}
+{"depth": 2, "example_id": "fixture-030", "gold_label": "True", "question": "Erin is kind.", "theory": ["Erin is calm.", "If someone is calm then they are warm.", "If someone is warm then they are kind."]}
+{"depth": 1, "example_id": "fixture-031", "gold_label": "True", "question": "Finn is soft.", "theory": ["Finn is furry.", "If someone is furry then they are soft."]}
+{"depth": 0, "example_id": "fixture-032", "gold_label": "False", "question": "Finn is soft.", "theory": ["Finn is not soft."]}
+{"depth": 0, "example_id": "fixture-033", "gold_label": "Unknown", "question": "Finn is soft.", "theory": ["Finn is furry."]}
+{"depth": 1, "example_id": "fixture-034", "gold_label": "True", "question": "Finn is kind.", "theory": ["Finn is furry.", "Finn is young.", "If someone is furry and they are young then they are kind."]}
+{"depth": 0, "example_id": "fixture-035", "gold_label": "Unknown", "question": "Alice likes Finn.", "theory": ["Finn likes Alice."]}
+{"depth": 2, "example_id": "fixture-036", "gold_label": "True", "question": "Finn is kind.", "theory": ["Finn is furry.", "If someone is furry then they are warm.", "If someone is warm then they are kind."]}

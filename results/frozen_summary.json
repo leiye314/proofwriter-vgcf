@@ -1,0 +1,103 @@
+{
+  "protocol": "VGCF-2.3.1",
+  "sample_count": 300,
+  "model_id": "qwen3.5-9b",
+  "methods": [
+    {
+      "method": "direct",
+      "display": "Direct",
+      "count": 300,
+      "correct": 114,
+      "accuracy": 0.38
+    },
+    {
+      "method": "cot",
+      "display": "CoT",
+      "count": 300,
+      "correct": 236,
+      "accuracy": 0.7866666666666666
+    },
+    {
+      "method": "cot_refine",
+      "display": "CoT-Refine",
+      "count": 300,
+      "correct": 245,
+      "accuracy": 0.8166666666666667
+    },
+    {
+      "method": "constrained",
+      "display": "Constrained",
+      "count": 300,
+      "correct": 173,
+      "accuracy": 0.5766666666666667
+    },
+    {
+      "method": "gate_cot",
+      "display": "Gate+CoT",
+      "count": 300,
+      "correct": 263,
+      "accuracy": 0.8766666666666667
+    },
+    {
+      "method": "repair_only",
+      "display": "Repair-only",
+      "count": 300,
+      "correct": 224,
+      "accuracy": 0.7466666666666667
+    },
+    {
+      "method": "vgcf2",
+      "display": "Full VGCF-2",
+      "count": 300,
+      "correct": 271,
+      "accuracy": 0.9033333333333333
+    }
+  ],
+  "primary_comparisons": [
+    {
+      "hypothesis_id": "H1",
+      "left_method": "vgcf2",
+      "right_method": "cot_refine",
+      "paired_n": 300,
+      "left_correct": 271,
+      "right_correct": 245,
+      "wins_left_correct_right_wrong": 41,
+      "losses_left_wrong_right_correct": 15,
+      "ties": 244,
+      "accuracy_delta_left_minus_right": 0.08666666666666667,
+      "mcnemar_exact_p_raw": 0.0006855641563783821,
+      "mcnemar_exact_p_holm": 0.0013711283127567642,
+      "paired_bootstrap_ci_95": {
+        "high": 0.13333333333333333,
+        "low": 0.04
+      },
+      "bootstrap_resamples": 100000,
+      "bootstrap_seed": 20260809
+    },
+    {
+      "hypothesis_id": "H2",
+      "left_method": "vgcf2",
+      "right_method": "gate_cot",
+      "paired_n": 300,
+      "left_correct": 271,
+      "right_correct": 263,
+      "wins_left_correct_right_wrong": 10,
+      "losses_left_wrong_right_correct": 2,
+      "ties": 288,
+      "accuracy_delta_left_minus_right": 0.02666666666666667,
+      "mcnemar_exact_p_raw": 0.03857421875,
+      "mcnemar_exact_p_holm": 0.03857421875,
+      "paired_bootstrap_ci_95": {
+        "high": 0.05,
+        "low": 0.006666666666666667
+      },
+      "bootstrap_resamples": 100000,
+      "bootstrap_seed": 20260810
+    }
+  ],
+  "source_sha256": {
+    "analysis/final_v2_3_1/method_metrics.csv": "0a210a240369de96413412fffd6461597139710a1ece7998c48848066f80c251",
+    "analysis/final_v2_3_1/primary_hypotheses_results.json": "12b7fffd5abdcc667a3316c8c60253b1000fec2ea610e0c4bcee4e746350d515"
+  },
+  "scope": "Aggregate transcription from frozen internal evidence; no raw predictions or inference regeneration."
+}

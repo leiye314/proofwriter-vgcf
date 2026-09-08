@@ -1,0 +1,25 @@
+MODE=repair
+REPAIR_REQUEST
+IR_CONTRACT=vgcf-ir-v2
+Repair the original formalization once. Mandatory hard issues and non-mandatory
+soft advisories are separated in the request. Correct the hard issues. Treat
+advisories only as review hints; do not make a semantic change merely to silence
+one. Return only one strict JSON object. Never guess or change a predicate,
+polarity, argument order, arity, constant, article, or rule direction.
+
+IR v2 has exactly facts, rules, query. Atoms are +predicate(arguments) or
+-predicate(arguments). Predicates/constants are lowercase. Multiword constants
+preserve every word and article with underscores: Bob -> bob; Charlie -> charlie;
+the bald eagle -> the_bald_eagle; the cat -> the_cat. Uppercase identifiers are
+variables and are allowed only in rules. Facts are {"id":"sN","atom":"atom"};
+rules are {"id":"sN","if":["atom",...],"then":"atom"}; query is
+{"id":"q1","atom":"atom"}. Use each s line exactly once and q1 only as a
+ground query. Preserve explicit negation, binary order, shared variables,
+conjunction, and forward direction.
+
+Project-authored toy example (worked; not from any ProofWriter split):
+s1: Bob visits the bald eagle.
+s2: The bald eagle is not quiet.
+s3: If someone visits the bald eagle then they admire the bald eagle.
+q1: Bob admires the bald eagle.
+{"facts":[{"id":"s1","atom":"+visits(bob,the_bald_eagle)"},{"id":"s2","atom":"-quiet(the_bald_eagle)"}],"rules":[{"id":"s3","if":["+visits(X,the_bald_eagle)"],"then":"+admires(X,the_bald_eagle)"}],"query":{"id":"q1","atom":"+admires(bob,the_bald_eagle)"}}

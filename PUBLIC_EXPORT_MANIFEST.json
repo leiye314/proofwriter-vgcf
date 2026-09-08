@@ -1,0 +1,243 @@
+{
+  "copied_unchanged": [
+    {
+      "path": "src/vgcf/__init__.py",
+      "sha256": "11c0752d67f750ce3ab446dcd34bde1ab2b09fe113e68fa65ad80bbe66b85a1c"
+    },
+    {
+      "path": "src/vgcf/analysis.py",
+      "sha256": "78a514ae64d60afe59fd450b79c73442e2275c1726359fc3775afd11b4010a1b"
+    },
+    {
+      "path": "src/vgcf/audit_v2.py",
+      "sha256": "eb35f5ed3af1c8cf82483a71a41994672994a1e8b6da8c661e7c30c5fe8761d5"
+    },
+    {
+      "path": "src/vgcf/cli.py",
+      "sha256": "a48325bd730afb73039dc1ecf69d00704a2557e01cd6c1f461cef886e977993f"
+    },
+    {
+      "path": "src/vgcf/contract_v2_3.py",
+      "sha256": "c1dcc695c9d55b04ef04ab3baad6d5273b37ecae505714396c489b19702f98eb"
+    },
+    {
+      "path": "src/vgcf/contract_v2_3_1.py",
+      "sha256": "8b0e3f4c24ba4f3020edf6182883bfd63a341c331dd8090240a3c16c68f6c1d0"
+    },
+    {
+      "path": "src/vgcf/controlled_language.py",
+      "sha256": "a4cbe649e1b13537e173c2f0a445316be0f122b9905e19118bb2e621a3e4be4c"
+    },
+    {
+      "path": "src/vgcf/data.py",
+      "sha256": "9d103b24271e216524101048d8a31b7cc9891195000079f518cee21d26e1f2d7"
+    },
+    {
+      "path": "src/vgcf/errors.py",
+      "sha256": "1375895f686e80c5e7dad7452cff0de7aaf5bf0c1390573236a3b6480922f606"
+    },
+    {
+      "path": "src/vgcf/experiment.py",
+      "sha256": "b1e4633eeefe25d4927316e59abad272231716408315027b3db80a2b5d060ffe"
+    },
+    {
+      "path": "src/vgcf/final_authorization_v2_3_1.py",
+      "sha256": "74ecc141600b89d0e7b9a5c3a5146e9c8d334c529fa5f48c79d59b12ee05fb6e"
+    },
+    {
+      "path": "src/vgcf/final_v2_3_1.py",
+      "sha256": "acf5cf37de3fdcc6f72b944243ac0ffb0e8893f820447439a7c7e284d5f0d572"
+    },
+    {
+      "path": "src/vgcf/gold.py",
+      "sha256": "6858dfa6f8091fa1643bd6571ad5cc9151e04ae0431e60df7f492d872b915b48"
+    },
+    {
+      "path": "src/vgcf/ir_v2.py",
+      "sha256": "fef800bedd7a7af35e7d015a8d6fc063e2b14fb1876d7a316d2940afc4f1c57c"
+    },
+    {
+      "path": "src/vgcf/methods.py",
+      "sha256": "62fe7c4a55a860d871daf92d594caa17a10d442dc5f3de58ac5c7be577980b8d"
+    },
+    {
+      "path": "src/vgcf/metrics.py",
+      "sha256": "c8702a5736e5067461c725fe29b255650501971de39da455021012745d43f3a9"
+    },
+    {
+      "path": "src/vgcf/model.py",
+      "sha256": "461d9cea8b42a8adb620f7b8864606712fa66660de7503983830537d967894b8"
+    },
+    {
+      "path": "src/vgcf/parsing.py",
+      "sha256": "0364b15d9c3f11e5a6e766862eab8fa9de848dd0ca782916019f86f661d545c3"
+    },
+    {
+      "path": "src/vgcf/physical.py",
+      "sha256": "8460dc2f640468efebd796b3dcfdd38b7c7212a36d138f4044803fea9b4a1945"
+    },
+    {
+      "path": "src/vgcf/protocol.py",
+      "sha256": "66da754b93b3d5643110e58b5abe89b352b28b0fd426af66771c4a84403d35c0"
+    },
+    {
+      "path": "src/vgcf/runtime_profile_v2_3_1.py",
+      "sha256": "59b933f00b006b34a7b75f015a004c6324ca4179b768605fe86883be87fd4ff7"
+    },
+    {
+      "path": "src/vgcf/schema.py",
+      "sha256": "03a39845d81722d591f97d202fdf9826f8bf5bc36dfdcd9c45c962c994732198"
+    },
+    {
+      "path": "src/vgcf/solver.py",
+      "sha256": "b2fbfd49029c48f06f8fd160fc9d67fdceeec3aefa63345663e3220abfec47c9"
+    },
+    {
+      "path": "src/vgcf/validator.py",
+      "sha256": "d56591695197a7994b45ed3bafb2cf4acc8ca6d1ce154d487adbc22059130056"
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "tests/helpers.py",
+      "sha256": "014861799114bff5cfc49d45e8a7a0a4b853b2e4b2b39e09ffd80ee84734d60b"
+    },
+    {
+      "path": "tests/test_data.py",
+      "sha256": "867704afccf777564a2502e86063ec09eb16856c52b4b13aa80f5b04cea58f34"
+    },
+    {
+      "path": "tests/test_ir_v2.py",
+      "sha256": "0cd58e05996bd13e66260d32dfb04c03be5a56f1b7030e9e34e916a0c98e15ad"
+    },
+    {
+      "path": "tests/test_solver.py",
+      "sha256": "e4f3d6c0a7a896b1bd857aac44ee2273ef8b612c1c8004e20f9f530a044880ab"
+    },
+    {
+      "path": "tests/test_validator.py",
+      "sha256": "decd0d49d2b209744e4f7474fd95368cd5d1de8c8f1244f90282f250bd4edad7"
+    },
+    {
+      "path": "tests/test_methods_v2.py",
+      "sha256": "b387b1969cd266cb29d67b2a5c58710c2e83b8c8dbcd122e5cc1a4215c901409"
+    },
+    {
+      "path": "tests/test_cache_metrics.py",
+      "sha256": "6fe6966f6edfd1d5d4778ba14371736a5399442bcb6bf2020130d3eda4156fa7"
+    },
+    {
+      "path": "tests/test_end_to_end.py",
+      "sha256": "786605a95890becde1c01adf2371e0eb347a6e98874cb6334bc62b7717b26af2"
+    },
+    {
+      "path": "tests/test_gold.py",
+      "sha256": "3ea331c24b848374aea7b612b7e70f3233ea84429248622c784453f76245a62f"
+    },
+    {
+      "path": "tests/test_semantic_v2_2.py",
+      "sha256": "1dd7de9faaaa72cb85b894cb0311422bec57d555f77feef415ea8fcb017b31f0"
+    },
+    {
+      "path": "tests/test_patch_parsing_ir.py",
+      "sha256": "32ec11cdbdc140e77fbfc6298533390e884255cd268b1e6d4a08e5247386f704"
+    },
+    {
+      "path": "configs/prompts/constrained.txt",
+      "sha256": "c8a2567d60fe93ca2acfe52bd6b0a78310ec432a581c984066a1643ea0b28062"
+    },
+    {
+      "path": "configs/prompts/cot.txt",
+      "sha256": "ac87f9c7070596ad6e0f01108e67dc84acabcaaddfde0c312c8e2ddf5f99b6e0"
+    },
+    {
+      "path": "configs/prompts/cot_refine.txt",
+      "sha256": "5bccb562c75d3953a77f2cce91e468f2f5577c7fdaba663c0fe0841ca0fe9aa1"
+    },
+    {
+      "path": "configs/prompts/direct.txt",
+      "sha256": "4a29637db16d29e3b9b531b87a57ff639c72ac7e02c6e3141285494951362d78"
+    },
+    {
+      "path": "configs/prompts/plain.txt",
+      "sha256": "5b25ea311ffe8a8047049eb5e140a97cce50487f53d4078eea45ab7aa2f8758f"
+    },
+    {
+      "path": "configs/prompts/repair.txt",
+      "sha256": "c29831fd10c2c3a763e8f8152fc6873e54f9a93074fccb66c7be86189e156b7e"
+    },
+    {
+      "path": "configs/prompts/vgcf.txt",
+      "sha256": "aa3eb0bf2c11702f5963032c3e028ba894019584b1fb50e85fb626c300c6a823"
+    },
+    {
+      "path": "configs/smoke.json",
+      "sha256": "0603169ebd41c41daf7a45ffc44e7ce99aad0297ba008c168ca1a65e1dbe4f71"
+    },
+    {
+      "path": "data/fixtures/proofwriter_smoke.jsonl",
+      "sha256": "ae6426cfdfa1f2b2c82ea160b02413241ffdd2e422feb6b5dc324ad1bb4cc22e"
+    },
+    {
+      "path": "scripts/generate_fixture_data.py",
+      "sha256": "2e7b6ccbf6d398da5e1e5160c459b9ce1bc3f29903a94f95ad1827d0da958bf3"
+    },
+    {
+      "path": "scripts/inspect_dataset.py",
+      "sha256": "06ddadbeb37374e5a2dc74899207ffcc33356e68a04823f7a44cb1e038dee2d8"
+    },
+    {
+      "path": "scripts/run_experiment.py",
+      "sha256": "17ed299146e97cfecf9d40503a4db3496233a5d368f22caeb46c8334b29a6f09"
+    },
+    {
+      "path": "scripts/analyze_results.py",
+      "sha256": "32f68a4713351a44f31bb39c286127b144e57b8686cfbde253327adefbdd09d9"
+    },
+    {
+      "path": "scripts/portfolio/run_fixture_smoke.py",
+      "sha256": "c1be8628102ab87506b63912f988e43be9917046525566eef560e789cb54b32a"
+    },
+    {
+      "path": "docs/v2_ir.md",
+      "sha256": "343c4af3206505fc02d4f2469274897805d69e2228c13d41068ca211dbae8830"
+    }
+  ],
+  "adapted": [
+    "docs/architecture.md",
+    "scripts/run_core_tests.py",
+    "docs/data_and_leakage.md"
+  ],
+  "derived": {
+    "results/frozen_summary.json": "Selected aggregate fields only, from two frozen analysis sources"
+  },
+  "excluded_categories": [
+    "internal Git history and tags",
+    "personal contact details and student identity",
+    "submitted report and course materials",
+    "local archives and execution evidence",
+    "official dataset copies and model weights",
+    "raw model responses and cache files",
+    "official evaluator packets and rejected semantic-verifier packets",
+    "third-party PDFs and template/style files",
+    "historical result trees and case-level analyses"
+  ],
+  "new_public_files": [
+    ".gitattributes",
+    ".gitignore",
+    "EVIDENCE_MAP.md",
+    "LICENSE",
+    "PROJECT_STATUS.md",
+    "PUBLIC_EXPORT_MANIFEST.json",
+    "README.md",
+    "REPRODUCIBILITY.md",
+    "THIRD_PARTY.md",
+    "pyproject.toml",
+    "scripts/check_environment.py",
+    "scripts/run_public_tests.py",
+    "scripts/verify_summary.py",
+    "tests/test_public_release.py"
+  ]
+}
