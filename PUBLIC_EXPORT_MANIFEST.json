@@ -211,7 +211,8 @@
     "docs/data_and_leakage.md"
   ],
   "derived": {
-    "results/frozen_summary.json": "Selected aggregate fields only, from two frozen analysis sources"
+    "results/frozen_summary.json": "Selected aggregate fields only, from two frozen analysis sources",
+    "docs/report_public.pdf": "Compiled from a temporary frozen-source copy with only the student ID text removed; scientific text, tables, references and appendices unchanged."
   },
   "excluded_categories": [
     "internal Git history and tags",
@@ -239,5 +240,16 @@
     "scripts/run_public_tests.py",
     "scripts/verify_summary.py",
     "tests/test_public_release.py"
-  ]
+  ],
+  "public_report": {
+    "sha256": "0b7ae4088a0660d1842ef4a6e7894d6995eb50a67f14fed4cb8f78d57d73617b",
+    "source_tex_sha256": "05ca5f2267bfb89be23f4d8baf1fd092c8ead50d8a5e19268fb7ac7f2085f0b9",
+    "source_pdf_sha256": "2f784f887c89de86670ff4ade800a4e615f80f2f78b77233dbff972c6ba3daad",
+    "pages": 12,
+    "source_change": "Delete student ID text only",
+    "visible_text_equivalent_except_student_id": true,
+    "render_comparison": "Pages 2-12 identical; page 1 differs only within the removed student-ID region",
+    "metadata_privacy_scan": "PASS",
+    "scope_update": "The sanitized display PDF is now explicitly included; earlier no-public-PDF scope descriptions refer to the initial release. No template or source dependencies are exported."
+  }
 }

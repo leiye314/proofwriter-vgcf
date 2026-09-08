@@ -7,6 +7,8 @@ on ProofWriter. This is a technical portfolio, not a peer-reviewed publication,
 a SOTA claim, a trained-model contribution or evidence of universal symbolic
 reasoning superiority.
 
+[Public course report](docs/report_public.pdf) — public display copy with only the student ID removed; scientific content is unchanged.
+
 ## Pipeline
 
 Natural-language theory + question → constrained formalization → deterministic
